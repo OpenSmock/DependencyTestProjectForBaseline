@@ -20,7 +20,7 @@ Metacello new
 
 ## Dependencies
 
-Latest version of Toplo.
+Latest version of Bloc.
 
 ## License
 
