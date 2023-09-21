@@ -2,7 +2,7 @@
 
 [![Pharo 11 CI](https://github.com/OpenSmock/DependencyTestProjectForBaseline/actions/workflows/Pharo11CI.yml/badge.svg)](https://github.com/OpenSmock/DependencyTestProjectForBaseline/actions/workflows/Pharo11CI.yml)
 
-# ProjectName
+# Dependency Test Project For Baseline
 This project is a dependency of [TestProjectForBaseline](https://github.com/OpenSmock/TestProjectForBaseline).
 
 ## Getting Started
