@@ -7,7 +7,7 @@ Class {
 { #category : #tests }
 DependencyProjectLoadTest >> testIsLoadCorrectly [
 
-	"labordep : test if a common Bloc class is loaded and a recent Bloc class is loaded"
-	self assert: #BlElement isClass.
-	self assert: #BlLayoutResizerState isClass.
+	"labordep : test if a old and a latest bloc class are loaded"
+	self assert: (RGClassDefinition named: #BlElement) isClass.
+	self assert: (RGClassDefinition named: #BlLayoutResizerState) isClass.
 ]
