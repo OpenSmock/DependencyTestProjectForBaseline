@@ -8,6 +8,6 @@ Class {
 DependencyProjectLoadTest >> testIsLoadCorrectly [
 
 	"labordep : test if a old and a latest bloc class are loaded"
-	self assert: (RGClassDefinition named: #BlElement) isClass.
-	self assert: (RGClassDefinition named: #BlLayoutResizerState) isClass.
+	self assert: (#BlElement asClassInEnvironment: Smalltalk globals ifAbsent: [nil]) notNil.
+	self assert: (#BlLayoutResizerState asClassInEnvironment: Smalltalk globals ifAbsent: [nil]) notNil.
 ]
